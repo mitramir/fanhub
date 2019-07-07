@@ -52,10 +52,10 @@
         <div class="site-navbar bg-light">
           <div class="py-1">
             <div class="row align-items-center">
-              <div class="col-0">
-                <h2 class="mb-0 site-logo"><a href="#">Maddie Garrick</a></h2>
+              <div class="col col-md-4">
+                <h2 class="mb-0 col site-logo"><a href="#">Maddie Garrick</a></h2>
               </div>
-              <div class="col-10">
+              <div class="col col-md-8">
                 <nav class="site-navigation text-right" role="navigation">
                   <div class="container">
                     
