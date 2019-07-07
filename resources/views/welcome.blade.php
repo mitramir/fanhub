@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
- <link rel = "shortcut icon" href = {{URL::asset('images/favicon.ico')}}/>
+ <link rel = "shortcut icon" href = {{secure_asset('images/favicon.ico')}}/>
     <!-- For apple devices -->
-    <link rel = "apple-touch-icon" href = {{URL::asset('images/favicon.ico')}}/>
+    <link rel = "apple-touch-icon" href = {{secure_asset('images/favicon.ico')}}/>
 
     <title>Maddie Garrick</title>
 
@@ -11,25 +11,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="{{URL::asset('fonts/icomoon/style.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('fonts/icomoon/style.css')}}">
 
-    <link rel="stylesheet" href="{{URL::asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('css/jquery-ui.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('css/bootstrap-datepicker.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('css/animate.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/jquery-ui.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/animate.css')}}">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
     
     
     
-    <link rel="stylesheet" href="{{URL::asset('fonts/flaticon/font/flaticon.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('fonts/flaticon/font/flaticon.css')}}">
   
-    <link rel="stylesheet" href="{{URL::asset('css/aos.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/aos.css')}}">
 
-    <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
     
   </head>
   <body>
@@ -98,7 +98,7 @@
     
     <div class="slide-one-item home-slider owl-carousel">
       
-      <div class="site-blocks-cover overlay" style="background-image: url({{URL::asset('images/mg-1.jpg')}});" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url({{secure_asset('images/mg-1.jpg')}});" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
@@ -110,7 +110,7 @@
         </div>
       </div>  
 
-      <div class="site-blocks-cover overlay" style="background-image: url({{URL::asset('images/mg-4.jpg')}});" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url({{secure_asset('images/mg-4.jpg')}});" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
@@ -123,7 +123,7 @@
     </div>
 
     <div class="site-block-half d-flex">
-      <div class="image bg-image" style="background-image: url('{{URL::asset('images/mg-black-512.jpeg')}}');"></div>
+      <div class="image bg-image" style="background-image: url('{{secure_asset('images/mg-black-512.jpeg')}}');"></div>
       <div class="text">
         <h2 class="font-family-serif">Welcome To life</h2>
         <span class="caption d-block text-primary pl-0 mb-4">Hello there!</span>
@@ -143,7 +143,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="{{URL::asset('images/mg-shout-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="{{secure_asset('images/mg-shout-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
               <div class="program-body">
                 <h3 class="heading mb-2"><a href="#">Embrace Your Edge</a></h3>
                 <p><a href="#">Healthy Basketball</a> with <a href="#">Vicky Johnson</a></p>
@@ -153,7 +153,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="{{URL::asset('images/mg-team-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="{{secure_asset('images/mg-team-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
               <div class="program-body">
                 <h3 class="heading mb-2"><a href="#">Basketball to Build Resilience</a></h3>
                 <p><a href="#">Healthy Basketball</a> with <a href="#">Kit Rich</a></p>
@@ -163,7 +163,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="{{URL::asset('images/mg-asia-gold-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="{{secure_asset('images/mg-asia-gold-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
               <div class="program-body">
                 <h3 class="heading mb-2"><a href="#">Rise &amp; Shine</a></h3>
                 <p><a href="#">Power Basketball</a> with <a href="#">Sara Clark</a></p>
@@ -174,7 +174,7 @@
 
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="{{URL::asset('images/mg-aus-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="{{secure_asset('images/mg-aus-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
               <div class="program-body">
                 <h3 class="heading mb-2"><a href="#">Bend &amp; Stretch</a></h3>
                 <p><a href="#">Meditation Basketball</a> with <a href="#">David Scott</a></p>
@@ -184,7 +184,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="{{URL::asset('images/mg-aus-ws.jpg')}}" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="{{secure_asset('images/mg-aus-ws.jpg')}}" alt="Image" class="img-fluid"></a>
               <div class="program-body">
                 <h3 class="heading mb-2"><a href="#">Women Series</a></h3>
                 <p><a href="#">Meditation Basketball</a> with <a href="#">David Scott</a></p>
@@ -194,7 +194,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <a href="#" class="d-block mb-0 thumbnail"><img src="{{URL::asset('images/mg-rise-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
+              <a href="#" class="d-block mb-0 thumbnail"><img src="{{secure_asset('images/mg-rise-800-550.jpg')}}" alt="Image" class="img-fluid"></a>
               <div class="program-body">
                 <h3 class="heading mb-2"><a href="#">Barre Workout</a></h3>
                 <p><a href="#">Meditation Basketball</a> with <a href="#">David Scott</a></p>
@@ -217,11 +217,11 @@
                   <span class="icon-wrap">
                     <span class="icon icon-play"></span>
                   </span>
-                  <img src="{{URL::asset('images/mg-video-cover-800-550.jpg')}}" alt="" class="img-fluid rounded">
+                  <img src="{{secure_asset('images/mg-video-cover-800-550.jpg')}}" alt="" class="img-fluid rounded">
                 </a>
               </div>
 
-              <img src="{{URL::asset('images/mg-hustle-2-800-500.jpg')}}" alt="Image" class="img-fluid image-absolute">
+              <img src="{{secure_asset('images/mg-hustle-2-800-500.jpg')}}" alt="Image" class="img-fluid image-absolute">
 
           </div>
           <div class="col-md-5 ml-auto">
@@ -246,42 +246,42 @@
         </div>
         <div class="row no-gutters">
           <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/1.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/1.jpg')}}" alt="Image" class="img-fluid"></a>
+            <a href="{{secure_asset('images/1.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/1.jpg')}}" alt="Image" class="img-fluid"></a>
           </div>
           <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/2.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/2.jpg')}}" alt="Image" class="img-fluid"></a>
+            <a href="{{secure_asset('images/2.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/2.jpg')}}" alt="Image" class="img-fluid"></a>
           </div>
           <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/3.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/3.jpg')}}" alt="Image" class="img-fluid"></a>
+            <a href="{{secure_asset('images/3.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/3.jpg')}}" alt="Image" class="img-fluid"></a>
           </div>
           <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/4.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/4.jpg')}}" alt="Image" class="img-fluid"></a>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/5.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/5.jpg')}}" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/6.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/6.jpg')}}" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/7.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/7.jpg')}}" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/8.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/8.jpg')}}" alt="Image" class="img-fluid"></a>
+            <a href="{{secure_asset('images/4.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/4.jpg')}}" alt="Image" class="img-fluid"></a>
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/9.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/9.jpg')}}" alt="Image" class="img-fluid"></a>
+            <a href="{{secure_asset('images/5.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/5.jpg')}}" alt="Image" class="img-fluid"></a>
           </div>
           <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/10.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/10.jpg')}}" alt="Image" class="img-fluid"></a>
+            <a href="{{secure_asset('images/6.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/6.jpg')}}" alt="Image" class="img-fluid"></a>
           </div>
           <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/11.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/11.jpg')}}" alt="Image" class="img-fluid"></a>
+            <a href="{{secure_asset('images/7.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/7.jpg')}}" alt="Image" class="img-fluid"></a>
           </div>
           <div class="col-md-6 col-lg-3">
-            <a href="{{URL::asset('images/12.jpg')}}" class="image-popup img-opacity"><img src="{{URL::asset('images/12.jpg')}}" alt="Image" class="img-fluid"></a>
+            <a href="{{secure_asset('images/8.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/8.jpg')}}" alt="Image" class="img-fluid"></a>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <a href="{{secure_asset('images/9.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/9.jpg')}}" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="{{secure_asset('images/10.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/10.jpg')}}" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="{{secure_asset('images/11.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/11.jpg')}}" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="{{secure_asset('images/12.jpg')}}" class="image-popup img-opacity"><img src="{{secure_asset('images/12.jpg')}}" alt="Image" class="img-fluid"></a>
           </div>
 
         </div>
@@ -305,7 +305,7 @@
             <div class="media-with-text p-md-5">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="{{URL::asset('images/event1.jpg')}}" alt="" class="img-fluid">
+                  <img src="{{secure_asset('images/event1.jpg')}}" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Tokyo 2020 Summer Olympics</a></h2>
@@ -316,7 +316,7 @@
             <div class="media-with-text p-md-4">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="{{URL::asset('images/event2.jpg')}}" alt="" class="img-fluid">
+                  <img src="{{secure_asset('images/event2.jpg')}}" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Hustle</a></h2>
@@ -327,7 +327,7 @@
             <div class="media-with-text p-md-4">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="{{URL::asset('images/event3.jpg')}}" alt="" class="img-fluid">
+                  <img src="{{secure_asset('images/event3.jpg')}}" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -338,7 +338,7 @@
             <div class="media-with-text p-md-4">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="{{URL::asset('images/event4.jpg')}}" alt="" class="img-fluid">
+                  <img src="{{secure_asset('images/event4.jpg')}}" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -349,7 +349,7 @@
             <div class="media-with-text p-md-4">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="{{URL::asset('images/event5.png')}}" alt="" class="img-fluid">
+                  <img src="{{secure_asset('images/event5.png')}}" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -360,7 +360,7 @@
             <div class="media-with-text p-md-4">
               <div class="img-border-sm mb-4">
                 <a href="#" class="popup-vimeo image-play">
-                  <img src="{{URL::asset('images/event6.jpg')}}" alt="" class="img-fluid">
+                  <img src="{{secure_asset('images/event6.jpg')}}" alt="" class="img-fluid">
                 </a>
               </div>
               <h2 class="heading mb-0"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h2>
@@ -424,7 +424,7 @@
         </div>
         <div class="row align-items-stretched">
           <div class="col-md-6 col-lg-3 mb-4">
-            <div class="pricing p-5 h-100 text-center bg-image no-border" style="background-image: url('{{URL::asset('images/img_1.jpg')}}');">
+            <div class="pricing p-5 h-100 text-center bg-image no-border" style="background-image: url('{{secure_asset('images/img_1.jpg')}}');">
               <div class="pricing-content">
                 <div class="text-center mb-4">
                   <h3 class="h4 mb-4">New Client Trial Week</h3>
